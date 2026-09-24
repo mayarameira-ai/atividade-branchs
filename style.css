@@ -13,3 +13,28 @@ li.concluida {
   color: #d8bfd8; 
 }
 }
+
+button:hover {
+  transform: scale(1.05);
+}
+
+li:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+li button {
+  background: #ff4444;
+  color: white;
+  padding: 0.4rem 0.7rem;
+  margin-left: 1rem;
+}
+
+div button {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  margin: 0 0.3rem;
+}
+
+div button:first-child {
+  background: #2563eb;
+}
